@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+
+body {
+    background-color: black;
+    color: palegreen;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input {
+    margin: 1rem;
+}
+
+#button {
+    width: 60px;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid #50C878;
+    color: palegreen;
+}
+
+#button:hover {
+    background-color: palegreen;
+    color: black;
+    border: 2px solid rgb(63, 104, 63);
+}
+
+#button:active {
+    transition: 0.1s;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.alert {
+    background-color: #5ACA75;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
